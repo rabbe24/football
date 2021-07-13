@@ -1,0 +1,176 @@
+
+@import url(utilities.css);
+
+.container{
+    width: 1160px;
+    padding: 2rem 0.5rem;
+    margin: 0 auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header style */
+#header{
+height: 550px;
+background-color: var(--primary);
+}
+.main-header{
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.main-nav{
+
+}
+.navbar{
+    padding-top: 2rem;
+ column-gap: 2rem;
+}
+.navbar a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--pure);
+    text-decoration: none;
+   
+}
+.login{
+
+}
+.login__btn{
+
+}
+.banner{
+
+}
+.banner__left{
+padding: 1rem;
+}
+.banner__title{
+    color: var(--pure);
+    font-size: 6rem;
+    letter-spacing: 0.2rem;
+    padding: 1rem 0;
+
+}
+.banner__btn{
+
+}
+.banner__right{
+    padding: 1rem;
+}
+.banner__right img{
+    width: 656px;
+    height: 438px;
+}
+/* Header End  */
+
+/* Main Style  */
+#main-area{
+
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem 0;
+    column-gap: 2.5rem;
+    row-gap: 2.5rem;
+    padding-right: 5rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    padding: 1rem 2rem;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.card img{
+    width: 300px;
+    height: 256px;
+}
+.card__title{
+    color: var(--ternary);
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+.card__desc{
+    font-size: 1.8rem;
+    color: var(--light);
+    padding-bottom: 1rem;
+
+}
+
+/* Main End  */
+/* Footer Style  */
+#footer{
+
+}
+.big-footer{
+padding: 10rem 0;
+}
+.big-footer__left{
+    padding: 1rem;
+}
+.big-footer__title{
+    color: var(--ternary);
+    font-size: 5rem;
+    letter-spacing: 0.3rem;
+    padding: 1rem 0;
+}
+.big-footer__desc{
+    color: var(--light);
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+.big-footer__btn{
+
+}
+.big-footer__right{
+
+}
+.big-footer__right img{
+    width: 567px;
+    height: 427px;
+}
+.main-footer{
+    flex-direction: column;
+    margin: 0 auto;
+    row-gap: 2rem;
+    padding: 5rem 0;
+}
+.footer__logo{
+ margin: 0 auto;
+}
+.footer__logo img{
+   
+    width: 483px;
+    height: 110px;
+}
+.footer__social{
+    margin: 0 auto;
+    column-gap: 2rem;
+}
+
+.footer__social .fab{
+    background-color: var(--extra);
+    opacity: .50;
+    padding: 2rem;
+    border-radius: 50rem;
+}
+.footer__copyright{
+margin: 0 auto;
+font-size: 3rem;
+color: var(--dark);
+}
+/* Footer End  */

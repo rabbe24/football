@@ -1,0 +1,35 @@
+
+:root{
+    --primary: #2D25A0;
+    --secondary: #E02C6D;
+    --light: #6C6C6C;
+    --pure: #FFFFFF;
+    --dark: #000000;
+    --ternary: #18191F;
+    --extra: #969BAB;
+}
+
+.flex{
+    display: flex;
+}
+.flex-1{
+    flex: 1;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.btn{
+background-color: var(--secondary);
+padding: 1rem 1rem;
+}
+.btn a{
+    color: var(--pure);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
