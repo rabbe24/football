@@ -50,6 +50,21 @@ background-color: var(--primary);
 .login__btn{
 
 }
+.login__btn .fas{
+    position: relative;
+    animation: btnMove2 2s ease-in-out infinite alternate;
+}
+@keyframes btnMove2 {
+    from {
+        left: 0;
+    }
+    to {
+        left: -2rem;
+        padding: 0rem 2rem;
+        
+    }
+}
+
 .banner{
 
 }
@@ -63,9 +78,7 @@ padding: 1rem;
     padding: 1rem 0;
 
 }
-.banner__btn{
 
-}
 .banner__right{
     padding: 1rem;
 }

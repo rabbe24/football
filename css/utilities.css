@@ -33,3 +33,20 @@ padding: 1rem 1rem;
     font-size: 1.5rem;
     text-decoration: none;
 }
+
+.btn .fas{
+    position: relative;
+    animation: btnMove1 2s ease-in-out infinite alternate;
+}
+@keyframes btnMove1 {
+    from {
+        left: 0;
+    }
+    to {
+        left: 2rem;
+        padding: 0rem 2rem;
+        
+    }
+}
+
+
