@@ -69,7 +69,14 @@
 .card__title{
     text-align: center;
 }
+.match img{
+    width: 100px;
+    height: 100px;
+}
+.match__middle p{
+    font-size: 5rem;
 
+}
 
 .big-footer__right img{
     width: 100%;
@@ -111,6 +118,16 @@
 }
 .card__title{
     text-align: center;
+}
+
+
+.match img{
+    width: 50px;
+    height: 50px;
+}
+.match__middle p{
+    font-size: 3rem;
+
 }
 
 .big-footer{
